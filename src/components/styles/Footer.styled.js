@@ -12,4 +12,5 @@ export const FooterStyle = styled.footer`
   font-weight: 400;
   font-size: 18px;
   text-shadow: 2px 2px 2px rgba(158, 136, 143, 0.7);
+  
 `;

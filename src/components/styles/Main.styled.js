@@ -15,15 +15,26 @@ export const MainStyle = styled.main`
   align-items: flex-start;
   margin: auto;
   overflow: hidden;
+  @media screen and (max-width: 900px) {
+    width: 100%;
+    background-size: 300% auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    
+  }
 `;
 
 export const TitleBlockStyle = styled.div`
   color: #4e70ba;
   font-family: "GetVoIP Grotesque";
   font-weight: 600;
-  font-size: 36px;
+  font-size: 2.2rem;
   ${"" /* margin: 60px auto auto 300px; */}
   margin-top: 60px;
+  @media screen and (max-width: 900px) {
+    font-size: 1.5rem;
+    width: 85%;
+    margin: 2rem auto
+  }
 `;
 
 export const TitleStyle = styled.h2`
