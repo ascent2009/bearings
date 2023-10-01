@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bearings/static/css/main.f5407a7f.css",
-    "main.js": "/bearings/static/js/main.95d90186.js",
+    "main.js": "/bearings/static/js/main.c291f3ec.js",
     "static/media/GetVoIP Grotesque.ttf": "/bearings/static/media/GetVoIP Grotesque.cf58be5e321ad1d29120.ttf",
     "static/media/mpk-logo-PhotoRoom.png": "/bearings/static/media/mpk-logo-PhotoRoom.96bbde7870cd22c05182.png",
     "static/media/background.jpg": "/bearings/static/media/background.2e9652a6e58415aa8436.jpg",
@@ -16,10 +16,10 @@
     "index.html": "/bearings/index.html",
     "static/media/hamburger.svg": "/bearings/static/media/hamburger.eeac3bcaf9f8a435da6ed49334c1e99e.svg",
     "main.f5407a7f.css.map": "/bearings/static/css/main.f5407a7f.css.map",
-    "main.95d90186.js.map": "/bearings/static/js/main.95d90186.js.map"
+    "main.c291f3ec.js.map": "/bearings/static/js/main.c291f3ec.js.map"
   },
   "entrypoints": [
     "static/css/main.f5407a7f.css",
-    "static/js/main.95d90186.js"
+    "static/js/main.c291f3ec.js"
   ]
 }
