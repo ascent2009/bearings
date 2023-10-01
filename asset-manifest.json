@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/bearings/static/css/main.f5407a7f.css",
+    "main.js": "/bearings/static/js/main.95d90186.js",
+    "static/media/GetVoIP Grotesque.ttf": "/bearings/static/media/GetVoIP Grotesque.cf58be5e321ad1d29120.ttf",
+    "static/media/mpk-logo-PhotoRoom.png": "/bearings/static/media/mpk-logo-PhotoRoom.96bbde7870cd22c05182.png",
+    "static/media/background.jpg": "/bearings/static/media/background.2e9652a6e58415aa8436.jpg",
+    "static/media/fag-logo.png": "/bearings/static/media/fag-logo.98f83ec8077c1fa5a7ec.png",
+    "static/media/timken-logo-PhotoRoom.png": "/bearings/static/media/timken-logo-PhotoRoom.8cc437718864a89ba8a9.png",
+    "static/media/koyo-logo.png": "/bearings/static/media/koyo-logo.aa50f8c8895df9e7b47a.png",
+    "static/media/SKF-Logo.png": "/bearings/static/media/SKF-Logo.8a6f3e66adc9468b7f2e.png",
+    "static/media/asahi_logo.png": "/bearings/static/media/asahi_logo.ba8a6c809dd8dfdcfc3b.png",
+    "static/media/ntn-logo.png": "/bearings/static/media/ntn-logo.9c367c15db6e4f2da12d.png",
+    "static/media/NSK-logo.png": "/bearings/static/media/NSK-logo.3879fe8f8cd788990428.png",
+    "static/media/close.svg": "/bearings/static/media/close.96c143b1db8295448949813ce945d971.svg",
+    "index.html": "/bearings/index.html",
+    "static/media/hamburger.svg": "/bearings/static/media/hamburger.eeac3bcaf9f8a435da6ed49334c1e99e.svg",
+    "main.f5407a7f.css.map": "/bearings/static/css/main.f5407a7f.css.map",
+    "main.95d90186.js.map": "/bearings/static/js/main.95d90186.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5407a7f.css",
+    "static/js/main.95d90186.js"
+  ]
+}
