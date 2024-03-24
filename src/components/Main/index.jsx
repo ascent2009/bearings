@@ -9,6 +9,7 @@ import Truck from "../../assets/truck.png"
 import Hand from "../../assets/bear-hand.png"
 import Aos from "aos"
 import "aos/dist/aos.css"
+import Modal from "../Modal"
 
 const oddsConfig = [
     {id: 1, text: "увеличенный срок службы за счет дополнительной изоляции;"},
@@ -30,7 +31,7 @@ const specialConfig = [
     
 ]
 
-const Main = () => {
+const Main = ({onClick}) => {
 
     useEffect(() => {
         Aos.init({duration: 2000})
@@ -63,7 +64,7 @@ const Main = () => {
                                 <div><img src={src} alt={subtitle} /></div>
                                 <h3>{subtitle}</h3>
                                 <p>{text}</p>
-                                <button type="button" className="main button">Оставить заявку</button>
+                                <button type="button" className="main button" onClick={onClick}>Оставить заявку</button>
                             </li>
                             )
                            )

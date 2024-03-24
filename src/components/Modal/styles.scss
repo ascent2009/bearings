@@ -1,0 +1,95 @@
+@import "../../var.scss";
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #000000;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.modal {
+    background: radial-gradient(circle at 100% 100%, #69608a 0, #69608a 1px, transparent 1px) 0% 0%/6px 6px no-repeat,
+            radial-gradient(circle at 0 100%, #69608a 0, #69608a 1px, transparent 1px) 100% 0%/6px 6px no-repeat,
+            radial-gradient(circle at 100% 0, #69608a 0, #69608a 1px, transparent 1px) 0% 100%/6px 6px no-repeat,
+            radial-gradient(circle at 0 0, #69608a 0, #69608a 1px, transparent 1px) 100% 100%/6px 6px no-repeat,
+            linear-gradient(90deg, #c0bfe5 0%, #3f448e 100%);
+    color: rgb(233, 230, 230);
+    width: 30%;
+    height: fit-content;
+    position: fixed;
+    top: 15%;
+    left: 33%;
+    bottom: 35%;
+    right: 20%; 
+    z-index: 2;
+    border-radius: 15px;
+    border: 2px solid rgb(233, 230, 230);
+    // box-shadow: $box-shadow;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 4rem 4rem;
+    &__title {
+        box-shadow: none;
+        text-align: center;
+        text-shadow: $text-shadow;
+        margin: 0;
+    }
+    &__form {
+        padding-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        .block {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            .input {
+                appearance: none;
+                background: transparent;
+                height: 2rem;
+                font-size: 1rem;
+                border-radius: 15px;
+                padding-left: 1rem;
+                color:white;
+                border: 2px solid rgb(233, 230, 230);
+                outline: none;
+                box-shadow: $box-shadow;
+            }
+            .error {
+                position: absolute;
+                padding: 0;
+                color: red;
+                font-weight: bold;
+                left: 1rem;
+                top: -1.5rem;
+            }
+        }
+        
+        .button {
+            color: white;
+            width: 50%;
+        }
+    }
+    &__button-close {
+        appearance: none;
+        position: absolute;
+        width: 1rem;
+        height: 1rem;
+        border: none;
+        padding: 0;
+        background: transparent;
+        box-shadow: none;
+        top: 1rem;
+        right: 1.2rem;
+        &:hover {
+            background: transparent;
+        }
+    }
+}
+
