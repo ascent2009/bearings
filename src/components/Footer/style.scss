@@ -1,0 +1,52 @@
+@import "../../var.scss";
+
+.footer {
+    width: 85%;
+    display:flex;
+    margin: auto auto;
+    padding-bottom: 8rem;
+    justify-content: space-between;
+    color: rgb(233, 230, 230);
+    gap: 4rem;
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+        h1 {
+            text-align: left;
+            font-size: 3rem;
+            margin: 0;
+            padding-bottom: 3rem;
+        }
+        .block {
+            gap: 2em;
+            font-size: 16px;
+            a {
+                gap: 1em;
+                &:first-child {
+                    font-size: 18px;
+                }
+                &:hover {
+                    color: white !important;    
+                }
+                img {
+                    width: 2em;
+                }
+            }
+            address {
+                display: flex;
+                align-items: center;
+                font-style: normal;
+                gap: 1em;
+                img {
+                    width: 2em;
+                }
+            }
+        }
+    }
+    &__map {
+        width: 60%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+}

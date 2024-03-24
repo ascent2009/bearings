@@ -3,16 +3,16 @@ import {
   MainStyle,
   TitleBlockStyle,
   TitleStyle,
-} from "./styles/Main.styled";
-import { HeaderStyle, HamburgerStyle, Menu, MobileMenu } from "./styles/Header.styled";
-import { ModalStyle, ImgStyle } from "./styles/Modal.styled";
-import { OverlayStyle } from "./styles/Overlay.styled";
-import { ButtonStyle } from "./styles/Button.styled";
-import { FooterStyle } from "./styles/Footer.styled";
+} from "./styles/Main.styled.js";
+import { HeaderStyle, HamburgerStyle, Menu, MobileMenu } from "./styles/Header.styled.js";
+import { ModalStyle, ImgStyle } from "./styles/Modal.styled.js";
+import { OverlayStyle } from "./styles/Overlay.styled.js";
+import { ButtonStyle } from "./styles/Button.styled.js";
+import { FooterStyle } from "./styles/Footer.styled.js";
 import { createPortal } from "react-dom";
-import { producersLogos } from "../producersLogos.js";
-import CloseSvg from "../assets/close.svg";
-import HamburgerSvg from "../assets/hamburger.svg";
+import { producersLogos } from "../../producersLogos.js";
+import CloseSvg from "../../assets/close.svg";
+import HamburgerSvg from "../../assets/hamburger.svg";
 
 const Container = () => {
     const [produsersModal, setProducersModal] = useState(false);
@@ -52,8 +52,16 @@ const Container = () => {
         <p>&copy;MPK Group 2023</p>
       </FooterStyle>
       {mobileMenu ? createPortal(
-        <MobileMenu>
-          <button
+        <><MobileMenu>
+          
+          <ButtonStyle title="Производители" onClick={showProducersModal} >
+            Производители
+          </ButtonStyle>
+          <ButtonStyle title="Контакты" onClick={showContactModal}>
+            Контакты
+          </ButtonStyle>
+        </MobileMenu>
+        <button
             type="button"
             onClick={closeModal}
             style={{
@@ -62,24 +70,20 @@ const Container = () => {
                     height: "66px",
                     padding: "1px",
                     borderRadius: "50%",
-                    bottom: "10px",
+                    top: "10px",
+                    // zIndex: 3,
                     right: "10px",
                     border: "none",
                     outline: "none",
-                    background: "transparent",
+                    background: "inherit",
                     cursor: "pointer",
                     opacity: "0.6"
             }}
           >
             <img src={CloseSvg} alt="close me" />
           </button>
-          <ButtonStyle title="Производители" onClick={showProducersModal} >
-            Производители
-          </ButtonStyle>
-          <ButtonStyle title="Контакты" onClick={showContactModal}>
-            Контакты
-          </ButtonStyle>
-        </MobileMenu> ,
+          </>
+         ,
         document.body
       ) : ""}
       

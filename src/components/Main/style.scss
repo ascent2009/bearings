@@ -1,0 +1,160 @@
+@import "../../var.scss";
+
+.main {
+    margin: 0 auto;
+    width: 100%;
+    &__odds {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #4f3c75;
+        background-color: rgb(255, 255, 255);
+        // box-shadow: $box-shadow;
+        .title {
+            margin-top: 4rem;
+            width: 60%;
+            font-size: 40px;
+        }
+        .block {
+            // margin: 2rem auto;
+            width: 85%;
+            flex-direction: row;
+            .list {
+                margin-top: 0;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items:flex-start;
+                gap: 2.5rem;
+                .list-item {
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 2rem;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    &__offer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #4f3c75;
+        background: linear-gradient(90deg, #dcdbf3 0%, #b1b1f3 100%);
+        margin: 0 auto 0;
+        padding-bottom: 2rem;
+        // box-shadow: $box-shadow;   
+        .title {
+            background: none;
+            width: 60%;
+            font-size: 50px;
+            margin: 2rem auto;
+            padding-top: 2rem;
+        }
+        .list {
+            display: grid;
+            grid-template-columns: 30% 30% 30%;
+            max-width: 80rem;
+            gap: 1.5rem;
+            .list-item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                gap: 2rem;
+                font-size: 18px;
+                border: 1px solid grey;
+                height: 42rem;
+                margin: 0;
+                div {
+                    height: 20rem;
+                    width: 100%;
+                    overflow: hidden;
+                    // flex-grow: 1;
+                    margin: 0 auto;                
+                   img {
+                    // max-width: 80%;
+                    // max-height: none;
+                    width: 100%;
+                    // min-width: 0px;
+                    // height: auto;
+                    // width: 100%;
+                    height: 100%;
+                    
+                    } 
+                }
+                
+                h3 {
+                    padding: 1.5rem 2rem 0;
+                    margin: 0;
+                    height: 2em;
+                }
+                p {
+                  font-size: 0.9rem;
+                  color: #444444;
+                  padding: 1rem 2rem 0;  
+                  margin: 0;
+                  height: 5em;
+                }
+                
+            }
+        }
+    }
+    &__specials {
+        width: 100%;
+        margin: 0 0 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #FFFFFF;
+        background: radial-gradient(circle at 100% 100%, #7e769e 0, #2c2250 1px, transparent 1px) 0% 0%/6px 6px no-repeat,
+            radial-gradient(circle at 0 100%, #69608a 0, #69608a 1px, transparent 1px) 100% 0%/6px 6px no-repeat,
+            radial-gradient(circle at 100% 0, #69608a 0, #69608a 1px, transparent 1px) 0% 100%/6px 6px no-repeat,
+            radial-gradient(circle at 0 0, #69608a 0, #69608a 1px, transparent 1px) 100% 100%/6px 6px no-repeat,
+            linear-gradient(90deg, #53537a 0, #959abb 100%, transparent);
+        // box-shadow: $box-shadow;
+        .title {
+            background: none;
+            // width: 60%;
+            font-size: 48px;
+            padding-top: 3rem;
+            margin-bottom: 3rem;
+        }
+        .list {
+            background: none;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            max-width: 50rem;
+            gap: 1.5rem;
+            justify-self: center;
+            .list-item {
+                width: 15rem;
+                display: flex;
+                flex-direction: column;
+                background-color: rgba(12,31,93,1);
+                align-items: center;
+                justify-content: center;
+                padding: 2rem 2rem 5rem;
+                text-align: center;
+                h3 {
+                    font-size: 1.2rem;
+                    margin: 0;
+                }
+                p {
+                    font-size: 1rem;
+                    margin: 0;
+                }
+
+            }
+        }
+    }
+    .button {
+        color: white;
+        font-size: 1.5rem;
+        margin: 0;
+        padding: 1em 2em;
+        width: 90%;
+    }
+}

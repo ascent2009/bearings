@@ -26,7 +26,7 @@ export const ModalStyle = styled.div`
   height: 170%;  
   position: absolute;
   top: 5%;
-  left: 10%;
+  left: 9%;
   };
 `;
 

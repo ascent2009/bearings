@@ -64,6 +64,8 @@ export const MobileMenu = styled.div`
     z-index: 2;
     justify-content: space-around;
     box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    text-overflow: ellipsis;
+    overflow: hidden;
     ${'' /* &:before {
       position: absolute;
       content: '';
