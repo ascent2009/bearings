@@ -1,8 +1,14 @@
 {
   "files": {
-    "main.css": "/bearings/static/css/main.f5407a7f.css",
-    "main.js": "/bearings/static/js/main.c291f3ec.js",
+    "main.css": "/bearings/static/css/main.b398d858.css",
+    "main.js": "/bearings/static/js/main.b757a0eb.js",
+    "static/media/Mpk-map.png": "/bearings/static/media/Mpk-map.f70ce48684c1e4dd61f1.png",
+    "static/media/bearing-feature.png": "/bearings/static/media/bearing-feature.368a83df3163d27f8624.png",
+    "static/media/ball-bearing.png": "/bearings/static/media/ball-bearing.6abf4241c89f1523abea.png",
+    "static/media/wires.jpg": "/bearings/static/media/wires.2a1075182c068f259700.jpg",
     "static/media/GetVoIP Grotesque.ttf": "/bearings/static/media/GetVoIP Grotesque.cf58be5e321ad1d29120.ttf",
+    "static/media/roll-bearing.png": "/bearings/static/media/roll-bearing.0fcac076b52720f2578e.png",
+    "static/media/ceramic-bearing.png": "/bearings/static/media/ceramic-bearing.3a2cf256d57610d443ec.png",
     "static/media/mpk-logo-PhotoRoom.png": "/bearings/static/media/mpk-logo-PhotoRoom.96bbde7870cd22c05182.png",
     "static/media/background.jpg": "/bearings/static/media/background.2e9652a6e58415aa8436.jpg",
     "static/media/fag-logo.png": "/bearings/static/media/fag-logo.98f83ec8077c1fa5a7ec.png",
@@ -11,15 +17,21 @@
     "static/media/SKF-Logo.png": "/bearings/static/media/SKF-Logo.8a6f3e66adc9468b7f2e.png",
     "static/media/asahi_logo.png": "/bearings/static/media/asahi_logo.ba8a6c809dd8dfdcfc3b.png",
     "static/media/ntn-logo.png": "/bearings/static/media/ntn-logo.9c367c15db6e4f2da12d.png",
+    "static/media/address.png": "/bearings/static/media/address.047916f5ebe167c3af07.png",
+    "static/media/ringing-call.png": "/bearings/static/media/ringing-call.635cc8dd626dcaa49c12.png",
     "static/media/NSK-logo.png": "/bearings/static/media/NSK-logo.3879fe8f8cd788990428.png",
     "static/media/close.svg": "/bearings/static/media/close.96c143b1db8295448949813ce945d971.svg",
+    "static/media/address.svg": "/bearings/static/media/address.61b986e9b7299abb69a7c87f9bc04a4f.svg",
+    "static/media/phone.svg": "/bearings/static/media/phone.610b669d946a706c8be8a24a82f401be.svg",
+    "static/media/check-mark.svg": "/bearings/static/media/check-mark.79a8e7d1b9ff1f379f25dddaff6f5231.svg",
     "index.html": "/bearings/index.html",
     "static/media/hamburger.svg": "/bearings/static/media/hamburger.eeac3bcaf9f8a435da6ed49334c1e99e.svg",
-    "main.f5407a7f.css.map": "/bearings/static/css/main.f5407a7f.css.map",
-    "main.c291f3ec.js.map": "/bearings/static/js/main.c291f3ec.js.map"
+    "static/media/close-modal.svg": "/bearings/static/media/close-modal.3d5f1333ccb43686cc06d8b354312493.svg",
+    "main.b398d858.css.map": "/bearings/static/css/main.b398d858.css.map",
+    "main.b757a0eb.js.map": "/bearings/static/js/main.b757a0eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5407a7f.css",
-    "static/js/main.c291f3ec.js"
+    "static/css/main.b398d858.css",
+    "static/js/main.b757a0eb.js"
   ]
 }
